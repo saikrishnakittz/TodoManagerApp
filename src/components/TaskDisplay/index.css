@@ -1,0 +1,35 @@
+.task-item {
+  height: 50px;
+  background-color: #323f4b;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.task {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.button {
+  height: 25px;
+  width: 80px;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border: 1px solid #f3aa4e;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+.text-file {
+  text-decoration: line-through;
+}
